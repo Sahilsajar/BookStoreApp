@@ -1,0 +1,43 @@
+#home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+
+#Create-icon{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.book-container{
+    display: flex;
+    width: 100vw;
+    flex-direction: row; 
+    gap: 1rem; 
+    /* margin-top: 1rem; */
+}
+
+.book-container .div1{
+    flex: 1 1 20%;
+}
+
+.book-container .div2{
+    flex: 1 1 50%;
+}
+
+.book-container .div3{
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-size{
+    font-size: x-large;
+}
+
+.border-1px{
+    border: 1px solid black;
+}
